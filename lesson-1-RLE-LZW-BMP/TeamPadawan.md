@@ -1,5 +1,9 @@
 # Team Padawan - RLE, BMP
 
+### Задача 0
+
+Завести на гитхабе репозиторий `int-inf-9`, в нем создать файл `lesson1.md`. Быстро прочитать, [что такое Markdown и с чем его едят](https://guides.github.com/features/mastering-markdown/). :shipit:
+
 ### Задача 1
 
 1. Запустить Powershell с помощью нажатия клавищ `Win + R` и вбив туда команду `powershell`.
