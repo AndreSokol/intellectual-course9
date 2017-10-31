@@ -8,10 +8,10 @@
 
 ### Задача 1
 
-1. Запустить Powershell с помощью нажатия клавищ `Win + R` и вбив туда команду `powershell`.
+1. Запустить Powershell с помощью нажатия клавиш `Win + R` и вбив туда команду `powershell`.
 2. Найти в интернете или исследовать методом тыка что делают команды `cd`, `ls`, `pwd`, `mkdir`.
 3. Перейти на Рабочий стол, создать там папку `Lesson-01-11` и перейти в нее.
-4. Написать в файле `lesson1.md` что делает каждая из команд
+4. Написать в файле `lesson1.md` что делает каждая из команд.
 
 ### Задача 2
 
@@ -36,7 +36,7 @@ python test.py 1 2 3 4 5 6 7 8 9
 
 ### Задача 3
 
-Прочитать (статью)[neerc.ifmo.ru/mediawiki/index.php?title=Алгоритм_LZW] про алгоритм сжатия Лемпеля-Зива-Велча (LZW).
+Прочитать [статью](neerc.ifmo.ru/mediawiki/index.php?title=Алгоритм_LZW) про алгоритм сжатия Лемпеля-Зива-Велча (LZW).
 
 Реализовать его в виде двух функций - `encodeLZW` и `decodeLZW`. Можно предполагать, что функция `decodeLZW` принимает два аргумента - массив, получившийся в результате сжатия и список символов, встречавшихся в исходной строке.
 
@@ -112,11 +112,6 @@ python bmp_decoder.py img_compressed.bmp img_decompressed.bmp
 2. Градиент - сверху черный, снизу белый    
 3. Градиент слева сверху вниз вправо из красного в синий
 
-[Спецификация 1, подробная](http://www.dragonwins.com/domains/getteched/bmp/bmpfileformat.htm)
-
-Спецификация 2, наглядная:
-![spec2](https://upload.wikimedia.org/wikipedia/commons/c/c4/BMPfileFormat.png)
-
 Открыть файл для работы с байтами:
 ```python
 file = open('output.bmp', mode='wb')
@@ -136,5 +131,10 @@ file.write( (218).to_bytes(1, byteorder='little') )
 ```python
 file.write( (1920).to_bytes(8, byteorder='little') )
 ```
+
+[Спецификация 1, подробная](http://www.dragonwins.com/domains/getteched/bmp/bmpfileformat.htm)
+
+Спецификация 2, наглядная:    
+![spec2](https://upload.wikimedia.org/wikipedia/commons/c/c4/BMPfileFormat.png)
 
 > andresokol, 2017
