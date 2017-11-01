@@ -24,13 +24,13 @@ print(sys.argv)
 ``` 
 3. В командной строке запустить эту программу тремя разными способами:
 ```
-python test.py
+c:\Python33\python test.py
 ```
 ```
-python test.py argument1 argument2
+c:\Python33\python test.py argument1 argument2
 ```
 ```
-python test.py 1 2 3 4 5 6 7 8 9
+c:\Python33\python test.py 1 2 3 4 5 6 7 8 9
 ```
 4. Понять, что такое `sys.argv` и написать об этом в файл `lesson.md`.
 
